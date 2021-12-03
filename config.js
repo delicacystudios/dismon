@@ -144,25 +144,25 @@ module.exports = {
     invite: "https://discord.gg/FajjNYYRza",
     dblinvite: "https://discord.com/api/oauth2/authorize?client_id=874462955398377522&permissions=8&scope=bot",
     roles: {
-      yonetici: "849008432710287373", // 1 Topic (Founder)
-      manager: "909653072702214174",// 2 Topic (Community Manager)
-      booster: "878504445690904647", // 6 Topic (Server Booster)
-      sponsor: "849008432660348935", // 4 Topic (Sponsor)
-      community: "914362331344039936", // 10 Topic (Project Developers)
-      supporter: "849008432698753041",// 5 Topic (Supporter)
-      partnerRole: "914232772002975835", // Partner Role id
-      site_creator: "914653334646964224",// Site Creator Role id
-      administrator: "909653072702214174", // Team Role id Again
-      moderator: "914653334646964224", // 3 Topic (Site Developer)
-      moderatorrole: "849008432698753042", // Server Moderator Role id
+      yonetici: "915823410762879046", // 1 Topic (Founder)
+      manager: "915828463104032819",// 2 Topic (Community Manager)
+      booster: "", // 6 Topic (Server Booster)
+      sponsor: "915830462377787484", // 4 Topic (Sponsor)
+      community: "915823410762879046", // 10 Topic (Project Developers)
+      supporter: "915828996841799740",// 5 Topic (Supporter)
+      partnerRole: "915827437965815828", // Partner Role id
+      site_creator: "915827810147377202",// Site Creator Role id
+      administrator: "916182382925721700", // Team Role id Again
+      moderator: "916181386921148436", // 3 Topic (Site Developer)
+      moderatorrole: "916181714722758669", // Server Moderator Role id
       profile: {
-        sitecreator:"914653334646964224", // Site Creator Role id
-        booster: "878504445690904647",// 6 Topic (Server Booster)
-        community: "909653072702214174",// 10 Topic (Project Developers)
-        sponsor: "849008432660348935", // 4 Topic (Sponsor)
-        supporter: "849008432698753041", // 5 Topic (Supporter)
+        sitecreator:"915827810147377202", // Site Creator Role id
+        booster: "",// 6 Topic (Server Booster)
+        community: "915823410762879046",// 10 Topic (Project Developers)
+        sponsor: "915830462377787484", // 4 Topic (Sponsor)
+        supporter: "915828996841799740", // 5 Topic (Supporter)
         manager: "909653072702214174", // 2 Topic (Roles Manager)
-        partnerRole: "914232772002975835" // Partner Role id
+        partnerRole: "915827437965815828" // Partner Role id
       },
       codeshare: {
         python: "PY",
@@ -177,25 +177,25 @@ module.exports = {
       },
       botlist: {
         ownerserver: "", // Server Owner Role ID
-        developer: "909653072702214174", // Bot Developer Role ID
-        certified_developer: "914362728913715240",// Certified Bot Developer Role ID
-        boosted_developer: "914362969872285709", // 9 Topic (Boosted Developer)
-        promoted_developer: "914363085572161546",// Promoted Bot Developer Role ID
-        premium_developer: "914363333933686784",// 7 Topic (Premium Developer)
-        bot: "914698558102450286",// Approved Bot Role ID
-        boosted_bot: "914363505552015411", // Boosted Bot Role ID
-        promoted_bot: "914363648938504243",// 8 Topic (Promoted Developer)
-        certified_bot: "914363777644892200"// Certified Bot Role ID
+        developer: "915833434394488842", // Bot Developer Role ID
+        certified_developer: "915833585406181426",// Certified Bot Developer Role ID
+        boosted_developer: "915832995770937384", // 9 Topic (Boosted Developer)
+        promoted_developer: "915832744334995466",// Promoted Bot Developer Role ID
+        premium_developer: "915832452331733023",// 7 Topic (Premium Developer)
+        bot: "915834581024911411",// Approved Bot Role ID
+        boosted_bot: "915834796670877698", // Boosted Bot Role ID
+        promoted_bot: "915834992188342282",// 8 Topic (Promoted Developer)
+        certified_bot: "915835195624656926"// Certified Bot Role ID
       }
     },
     channels: {
-      codelog: "914361879978184714", // Code Log
-      login: "914361944981516340",// Login Log
-      webstatus: "914361944981516340",// Website Status Log
-      uptimelog: "914361944981516340",// Uptime Log
-      botlog: "914362003064229898",// bot Log
-      reportlog: "914362078347800607",// bot report Log
-      votes: "914292086830931978"// Vote Log Log
+      codelog: "916158182936686602", // Code Log
+      login: "916161873391542362",// Login Log
+      webstatus: "916161873391542362",// Website Status Log
+      uptimelog: "",// Uptime Log
+      botlog: "916147938403692604",// bot Log
+      reportlog: "916161915389112422",// bot report Log
+      votes: "916161817598898176"// Vote Log Log
     }
   }
 }

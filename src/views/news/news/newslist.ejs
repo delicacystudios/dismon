@@ -1,0 +1,41 @@
+<%- include('../../parts/head', {bot, user, path}) %>
+<style>
+.page-header {
+    display: none;
+}
+.page-link {
+    display: flex;
+    align-items: center;
+    border-radius: 10%!important;
+    margin: 1px;
+    margin-top: 8px;
+}
+#tableData_filter {
+    display:none;
+}
+#tableData_info {
+    color: var(--body-text)!important;
+}
+</style>
+<br><br><br>
+    <div class="container">
+        <div class="column">
+            <p class="has-text-white title is-large" style="text-transform: capitalize;"><i class="fa fa-newspaper has-text-info"></i>&nbsp; <%= req.params.type %> News</p>
+          </div>
+          <table id="tableData" class="table table-dark" data-toggle="table" data-pagination="true" data-search="true">
+            <thead>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Optional info</th>
+            </thead>
+                    <% data.filter(a => a.codeCategory.toLowerCase() === req.params.type.toLowerCase()).map(a => {%>
+                      <tr>
+                          <td><a translate="yes"><%= a.postName %></a></td>
+                          <td><a translate="yes"><%= a.postDesc %></a></td>
+                          <td><a href="/news/view/<%= a.post %>" style="padding: 5px 25px;" class="btn btn-disbots">View</a></td>
+                      </tr>
+                   <% }); %>
+          </table>
+    </div>
+</center>
+<%- include('../../parts/foot') %>

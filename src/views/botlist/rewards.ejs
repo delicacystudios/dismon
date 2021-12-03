@@ -1,0 +1,52 @@
+<%- include('../parts/head', {bot, user, path}) %>
+
+<title>Rewards | Delicacy Monitoring</title>
+<style>
+strong {
+color: gray;
+}
+</style>
+<div class="container px-3 mt-2 pt-5">
+    <div class="container px-3 content is-widescreen pt-5">
+        <div class="bg-vote-disbots pt-5">
+<div class="bg-vote-disbots pt-5">
+<h3 class="has-text-white is-size-3" style="margin-bottom: 10px;"> </h3>
+<h1 style="color:white; text-shadow: 2px 2px 5px black; " translate="no" color="" id="fat" ><u>Coins<u>
+</h1>
+<p class="text-muted">
+<strong>How to get Coins?</strong>
+<br>You can get more Coins by being active in our official server.
+<br><br>
+<br><strong>How can i use Coins in the Monitoring?</strong>
+<br>You can promote/boost your boost using Coins.
+<br>You can also promote your server to Premium Server Section!
+</p>
+<br>
+<h1 style="color:white; text-shadow: 2px 2px 5px black;" translate="yes" color="" id="fat"><u>Rewards<u>
+</h1>
+<p class="text-muted">
+<strong>50 Coins <span data-tooltip="Coins" data-tooltip-location="top">
+<i class="fad fa-coin has-text-warning" style="font-size: 20px;"></i>
+</span></strong>
+<br>You can boost/promote your bot for 1 hour.
+<br><br>
+<br><strong>100 Coins <span data-tooltip="Coins" data-tooltip-location="top">
+<i class="fad fa-coins has-text-warning" style="font-size: 20px;"></i>
+</span></strong>
+<br>You can boost/promote your server/bot for 1 day.
+<br><br>
+<br><strong>500 Coins <span data-tooltip="Coins" data-tooltip-location="top">
+<i class="fad fa-coins has-text-warning" style="font-size: 20px;"></i>
+</span></strong>
+<br>You can boost/promote your server/bot for 1 week.
+</p>
+<br>
+</div>
+</div>
+</div>
+    <center>
+    <button onclick="location.href='/user/<%= user.id%>'" class="btn btn-back"><i class="fad fa-coin"></i>&nbsp;My Coins</button>
+    </center>
+</div>
+
+<%- include('../parts/foot') %>
